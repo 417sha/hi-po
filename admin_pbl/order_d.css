@@ -1,0 +1,54 @@
+body {
+    background-color: #fdf7e5;
+    color: #1e1e1e;
+    
+    
+  }
+  .order-heading {
+    font-family: "Playfair Display SC", serif;
+    font-size: 50px;
+    color: #1e1e1e;
+  }
+  
+  
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-title {
+    font-weight: 600;
+    
+  }
+  
+  
+  .list-group-item {
+    font-size: 0.9rem;
+    
+  }
+  
+  .fw-bold {
+    font-weight: 700;
+  }
+  
+  .bg-light {
+    background-color: #fff;
+  }
+  
+  .btn-outline-dark {
+    border-color: #333;
+    color: #333;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #d64141;
+    color: #fff;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .col-md-4 {
+      margin-top: 20px;
+    }
+  }

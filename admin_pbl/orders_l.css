@@ -1,0 +1,70 @@
+
+
+.main-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-content h2 {
+    font-family: "Playfair Display SC", serif;
+    font-size: 50px;
+    color: #1e1e1e;
+    
+  }
+  
+  /* Search Input */
+  .input-group .form-control {
+    border-radius: 0;
+    border-right: none;
+  }
+  
+  .input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #decba4;
+  }
+  
+  .input-group-text {
+    background-color: #f5e6ca;
+    border: none;
+  }
+  
+  /* Buttons */
+  button {
+    border-radius: 5px;
+  }
+  
+  #exportPdf {
+    background-color: #decba4;
+    color: #fff;
+  }
+  
+  #exportPdf:hover {
+    background-color: #b38a5e;
+  }
+  
+  /* Table */
+  .table-responsive {
+    margin-top: 20px;
+  }
+  
+  .table {
+    color: #6c757d;
+  }
+  
+  .table th {
+    background-color: #f5e6ca;
+    color: #3d3d3d;
+  }
+  
+  .table td {
+    background-color: #faf3e0;
+  }
+  
+  .table tr:nth-child(even) td {
+    background-color: #f1e7d4;
+  }
+  
+  .table tr:hover td {
+    background-color: #decba4;
+  }

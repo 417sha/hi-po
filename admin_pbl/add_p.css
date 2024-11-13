@@ -1,0 +1,97 @@
+ * {
+    box-sizing: border-box;
+  }
+
+ /* body, .container-fluid, .vh-100 {
+    background-color: #FFF8DC; /* Set to the main page color
+}*/
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #e3e3e3;
+    margin-bottom: 16px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .image-upload {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .image-box {
+    width: 80px;
+    height: 80px;
+    background-color: #d3d3d3;
+    border-radius: 4px;
+  }
+  
+  .color-boxes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .color-box {
+    width: 50px;
+    height: 30px;
+    background-color: #d3d3d3;
+    border-radius: 4px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .save-btn {
+    padding: 8px 16px;
+    border: 1px solid #6e614b;
+    background-color: #fff;
+    color: #6e614b;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .add-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #6e614b;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .save-btn:hover {
+    background-color: #f3e8d4;
+  }
+  
+  .add-btn:hover {
+    background-color: #4f4a3f;
+  }
+
+  
